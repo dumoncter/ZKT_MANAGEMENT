@@ -1,5 +1,6 @@
 import sys
 import os
+from datetime import datetime
 
 CWD = os.path.dirname(os.path.realpath(__file__))
 ROOT_DIR = os.path.dirname(CWD)
@@ -9,14 +10,11 @@ from zk import ZK
 
 
 async def restart_device(ip):
-    zk = ZK(ip, port=4370)
+    zk = ZK(ip, port=4370, timeout=10)
     try:
         conn = zk.connect()
-        print(f'Перезагрузка устройства: {ip}')
+        print(f'Reboot: {ip}')
         conn.restart()
     except Exception as e:
-        print("Process terminate : {}".format(e))
-    finally:
-        if conn:
-            conn.disconnect()
+        print(datetime.now(), ip, "\nError : {}".format(e))
 

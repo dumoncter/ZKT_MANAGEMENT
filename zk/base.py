@@ -732,8 +732,8 @@ class ZK(object):
             self.is_connect = False
             self.next_uid = 1
             return True
-        # else:
-        #     raise ZKErrorResponse("can't restart device")
+        else:
+            raise ZKErrorResponse("can't restart device")
 
     def write_lcd(self, line_number, text):
         """
