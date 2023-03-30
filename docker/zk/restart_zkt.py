@@ -1,6 +1,5 @@
 from datetime import datetime
 from .reboot_web import selenium_open
-
 import os.path
 import sys
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))

@@ -5,7 +5,6 @@ from datetime import datetime
 from sys import platform
 
 driver = 'DRIVER={ODBC Driver 17 for SQL Server}'
-
 if platform == "linux" or platform == "linux2":
     driver = 'DRIVER={ODBC Driver 17 for SQL Server}'
 elif platform == "win32":

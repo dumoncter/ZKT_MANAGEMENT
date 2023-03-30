@@ -42,7 +42,6 @@ def send_telegram():
     except Exception as e:
         print('Telegram:', datetime.now().strftime("%m/%d/%Y, %H:%M:%S"), "\nError : {}".format(e))
 
-
 if __name__ == "__main__":
     sql_connect.sql_export()
     main()
