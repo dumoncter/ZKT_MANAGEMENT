@@ -1,6 +1,210 @@
 [
     {
+        "Name": "[AMUR] - MONEY",
+        "IpAddress": "192.168.20.23"
+    },
+    {
+        "Name": "[AMUR] - VIPISKA",
+        "IpAddress": "192.168.20.13"
+    },
+    {
+        "Name": "[AMUR] - INFOKIOSK",
+        "IpAddress": "192.168.20.188"
+    },
+    {
+        "Name": "[AMUR] - MEZONIN",
+        "IpAddress": "192.168.21.5"
+    },
+    {
+        "Name": "[AMUR] - RAZDEVALKA",
+        "IpAddress": "192.168.20.166"
+    },
+    {
+        "Name": "[AMUR] - SKLAD KIPIA",
+        "IpAddress": "192.168.20.158"
+    },
+    {
+        "Name": "[AMUR] - SKLAD SMENY",
+        "IpAddress": "192.168.20.17"
+    },
+    {
+        "Name": "[ARTPLAY]",
+        "IpAddress": "192.168.110.103"
+    },
+    {
+        "Name": "[VOR] - OFFICE",
+        "IpAddress": "192.168.60.15"
+    },
+    {
+        "Name": "[VOR] - SKLAD",
+        "IpAddress": "192.168.60.16"
+    },
+    {
+        "Name": "[KAZ] - OFFICE",
+        "IpAddress": "192.168.90.20"
+    },
+    {
+        "Name": "[KOT] - IT",
+        "IpAddress": "192.168.203.124"
+    },
+    {
+        "Name": "[KOT] - ARCHIVE",
+        "IpAddress": "192.168.202.1"
+    },
+    {
+        "Name": "[KOT] - BYXALTERIA",
+        "IpAddress": "192.168.202.223"
+    },
+    {
+        "Name": "[KOT] - 1ET LESTICA",
+        "IpAddress": "192.168.203.8"
+    },
+    {
+        "Name": "[KOT] - MONEY",
+        "IpAddress": "192.168.201.113"
+    },
+    {
+        "Name": "[KOT] - INFOKIOSK",
+        "IpAddress": "192.168.203.62"
+    },
+    {
+        "Name": "[KOT] - NACH SMENY",
+        "IpAddress": "192.168.203.129"
+    },
+    {
+        "Name": "[KOT] - KIPIA AKB",
+        "IpAddress": "192.168.204.90"
+    },
+    {
+        "Name": "[KOT] - KIPIA 2ET",
+        "IpAddress": "192.168.202.99"
+    },
+    {
+        "Name": "[KOT] - KYXNYA",
+        "IpAddress": "192.168.201.97"
+    },
+    {
+        "Name": "[KOT] - OBCHAYA DVER 2ET",
+        "IpAddress": "192.168.201.39"
+    },
+    {
+        "Name": "[KOT] - OBCHAYA DVER 3ET",
+        "IpAddress": "192.168.201.29"
+    },
+    {
+        "Name": "[KOT] - OTDEL PRODAJ",
+        "IpAddress": "192.168.201.38"
+    },
+    {
+        "Name": "[KOT] - PROIZVODSTVO",
+        "IpAddress": "192.168.202.252"
+    },
+    {
+        "Name": "[KOT] - REMBOX",
+        "IpAddress": "192.168.201.100"
+    },
+    {
+        "Name": "[KOT] - RYKOVODSTVO",
+        "IpAddress": "192.168.204.0"
+    },
+    {
+        "Name": "[KOT] - SBORKA AKB",
+        "IpAddress": "192.168.202.97"
+    },
+    {
+        "Name": "[KOT] - SKLAD SMENY",
+        "IpAddress": "192.168.201.36"
+    },
+    {
+        "Name": "[KOT] - SLYJEBNIY",
+        "IpAddress": "192.168.5.50"
+    },
+    {
+        "Name": "[KOT] - SNABJENIE",
+        "IpAddress": "192.168.204.11"
+    },
+    {
+        "Name": "[KOT] - 1ET YLITSYA",
+        "IpAddress": "192.168.203.51"
+    },
+    {
+        "Name": "[KOT] - 1ET HOLL",
+        "IpAddress": "192.168.203.6"
+    },
+    {
+        "Name": "[OREL] - MONEY",
+        "IpAddress": "192.168.100.23"
+    },
+    {
+        "Name": "[OREL] - OFFICE",
+        "IpAddress": "192.168.100.20"
+    },
+    {
         "Name": "[OREL] - SKLAD",
         "IpAddress": "192.168.100.21"
+    },
+    {
+        "Name": "[PENZA] - OFFICE",
+        "IpAddress": "192.168.130.150"
+    },
+    {
+        "Name": "[PTG] - MONEY",
+        "IpAddress": "192.168.80.70"
+    },
+    {
+        "Name": "[PTG] - OFFICE",
+        "IpAddress": "192.168.80.10"
+    },
+    {
+        "Name": "[PTG] - SKLAD",
+        "IpAddress": "192.168.80.69"
+    },
+    {
+        "Name": "[RND] - MONEY",
+        "IpAddress": "192.168.10.20"
+    },
+    {
+        "Name": "[RND] - OFFICE",
+        "IpAddress": "192.168.10.90"
+    },
+    {
+        "Name": "[RND] - SKLAD",
+        "IpAddress": "192.168.10.60"
+    },
+    {
+        "Name": "[SPB] - MONEY",
+        "IpAddress": "192.168.40.159"
+    },
+    {
+        "Name": "[SPB] - OFFICE",
+        "IpAddress": "192.168.50.219"
+    },
+    {
+        "Name": "[SPB] - SKLAD",
+        "IpAddress": "192.168.40.103"
+    },
+    {
+        "Name": "[TVER] - OFFICE",
+        "IpAddress": "192.168.70.62"
+    },
+    {
+        "Name": "[TVER] - SKLAD",
+        "IpAddress": "192.168.70.63"
+    },
+    {
+        "Name": "[YAR] - MONEY",
+        "IpAddress": "192.168.120.20"
+    },
+    {
+        "Name": "[YAR] - OFFICE",
+        "IpAddress": "192.168.120.111"
+    },
+    {
+        "Name": "[YAR] - SKLAD",
+        "IpAddress": "192.168.120.100"
+    },
+    {
+        "Name": "[AMUR] - SHOUROOM",
+        "IpAddress": "192.168.170.120"
     }
 ]

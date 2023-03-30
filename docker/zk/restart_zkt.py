@@ -1,12 +1,11 @@
-import sys
-import os
 from datetime import datetime
+from .reboot_web import selenium_open
 
-CWD = os.path.dirname(os.path.realpath(__file__))
-ROOT_DIR = os.path.dirname(CWD)
-sys.path.append(ROOT_DIR)
+import os.path
+import sys
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
-from zk import ZK, reboot_web
+from .base import ZK
 
 ip_error = []
 restart_web = 0
@@ -26,7 +25,7 @@ def restart_device(ip, name):
 def reboot_page(ip, name):
     global restart_web
     try:
-        reboot_web.selenium_open(ip)
+        selenium_open(ip)
         restart_web += 1
     except Exception as e:
         print(datetime.now().strftime("%m/%d/%Y %H:%M:%S"), ip, "\nError : {}".format(e))

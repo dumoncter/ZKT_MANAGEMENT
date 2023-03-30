@@ -3,6 +3,7 @@ import time
 import json
 from datetime import datetime
 
+
 count_ip = 0
 
 
@@ -34,7 +35,10 @@ def send_telegram():
 {new_line.join(list(map(str, restart_zkt.ip_error)))}
                                 ''')
         else:
-            telegram_bot.send_msg(f'✅ {count_ip} ZKT прошла синхронизацию')
+            telegram_bot.send_msg(f'''
+✅ {count_ip} ZKT прошла синхронизацию')
+🔥 {restart_zkt.restart_web} перезапущенно через WEB
+                                ''')
     except Exception as e:
         print('Telegram:', datetime.now().strftime("%m/%d/%Y, %H:%M:%S"), "\nError : {}".format(e))
 

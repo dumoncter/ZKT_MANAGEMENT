@@ -1,6 +1,10 @@
+import collections
+from datetime import datetime
+import json
+
 import pyodbc
 
-driver = 'DRIVER={SQL Server}' # ODBC Driver 17 for SQL Server - Ubuntu # SQL Server - Windows
+driver = 'DRIVER={ODBC Driver 17 for SQL Server}' # ODBC Driver 17 for SQL Server - Ubuntu # SQL Server - Windows
 server = 'SERVER=192.168.....'
 port = 'PORT=1433'
 db = 'DATABASE=zkt'

@@ -1,4 +1,4 @@
-FROM --platform=linux/amd64 python:3.11.1-buster
+FROM python:3.11.2-buster
 
 # install time zone
 ENV TZ="Europe/Moscow"
